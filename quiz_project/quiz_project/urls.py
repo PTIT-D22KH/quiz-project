@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('quiz/', views.quiz_view, name='quiz'),
     path('', include('search.urls')), 
+    path('',include('base.urls')),
 ]
